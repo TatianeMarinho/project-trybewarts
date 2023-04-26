@@ -1,7 +1,7 @@
 const validarLogin = () => {
   const login = document.getElementById('email').value;
   const password = document.getElementById('password').value;
-  if (login == 'tryber@teste.com' & password == '123456') {
+  if (login === 'tryber@teste.com' & password === '123456') {
     alert('Olá, Tryber!');
     return true;
   }

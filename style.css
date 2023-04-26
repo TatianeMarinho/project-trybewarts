@@ -9,6 +9,10 @@
   justify-content: space-between;
 }
 
-.trybewarts-login{
+.header img {
+  height: 80px;
+}
+
+.trybewarts-login {
   display: flex;
 }
