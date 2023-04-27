@@ -11,8 +11,7 @@
 
 .header img {
   height: 80px;
-  display: flex;
-  align-items: center;
+
 }
 
 .trybewarts-login {
@@ -42,4 +41,9 @@ body main {
 
 .emailHouse {
   display: flex;
+}
+
+.trybewarts-forms-logo {
+  display: flex;
+  flex-direction: column-reverse;
 }
