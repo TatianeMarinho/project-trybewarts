@@ -29,7 +29,9 @@
     
     <main id="main">
         <form id="evaluation-form" action="" method="get">
+       
             <h2>Formulário de Avaliação</h2>
+
             <div id="nameLastname">
                 <label for="input-name"></label>
                 <input type="text" name="Nome" placeholder="Nome" id="input-name">
@@ -52,87 +54,104 @@
                 </select>
             </div>
 
-            <label for="" id="label-family">Qual sua família?</label>
+            <section id="familiConteudo">
+                <div id="familia">
+                    <label for="" id="label-family">Qual sua família?</label>
+                    <br>
 
-            <label for="Frontend">Frontend
-            <input type="radio" name="family" value="Frontend" id="Frontend">
-            </label>
+                    <label for="Frontend"><input type="radio" name="family" value="Frontend" id="Frontend">Família Frontend
+                    </label>
+                    <br>
 
-            <label for="Backend">Backend
-            <input type="radio" name="family" value="Backend" id="Backend">
-            </label>
+                    <label for="Backend"><input type="radio" name="family" value="Backend" id="Backend">Família Backend
+                    </label>
+                    <br>
 
-            <label for="FullStack">FullStack
-            <input type="radio" name="family" value="FullStack" id="FullStack">
-            </label>
+                    <label for="FullStack"><input type="radio" name="family" value="FullStack" id="FullStack">Família FullStack
+                    </label>
+                    <br>
+                </div>
 
-            <div id="">
-                <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label><p><p>
-                <div>
-               
-                <div>    
-                <input type="checkbox" class="subject" value="HoFs">
-                <label>HoFs</label>
+                <div id="conteudo">
+                    <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <br>
+                
+                    <div id="checkbox">    
+                        <input type="checkbox" class="subject" value="HoFs">
+                        <label >HoFs</label>
+                        <br>
 
-                <input type="checkbox" class="subject" value="Jest">
-                <label>Jest</label>
+                        <input type="checkbox" class="subject" value="Jest">
+                        <label>Jest</label>
+                        <br>
 
-                <input type="checkbox" class="subject" value="Promises">
-                <label>Promises</label>
+                        <input type="checkbox" class="subject" value="Promises">
+                        <label>Promises</label>
+                        <br>
 
-                <input type="checkbox" class="subject" value="React">
-                <label>React</label>
+                        <input type="checkbox" class="subject" value="React">
+                        <label>React</label>
+                        <br>
 
-                <input type="checkbox" class="subject" value="SQL">
-                <label>SQL</label>
+                        <input type="checkbox" class="subject" value="SQL">
+                        <label>SQL</label>
+                        <br>
 
-                <input type="checkbox" class="subject" value="Python">
-                <label>Python</label>
-            </div>
+                        <input type="checkbox" class="subject" value="Python">
+                        <label>Python</label>
+                        <br>
+                    </div>
+                </div>
+            </section>
 
+            <hr class="linha">
         
-            <div id="avaliation-trybewarts">
-            <label id="label-rate">Como você avalia a Trybewarts?</label>
+            <section id="avaliation-trybewarts">
+                
+                <label id="label-rate">Como você avalia a Trybewarts?</label>
 
-            <input type="radio" value="1" name="rate">
-            <label>1</label>
+                <input type="radio" value="1" name="rate">
+                <label>1</label>
 
-            <input type="radio" value="2" name="rate">
-            <label>2</label>
+                <input type="radio" value="2" name="rate">
+                <label>2</label>
 
-            <input type="radio" value="3" name="rate">
-            <label>3</label>
-            
-            <input type="radio" value="4" name="rate">
-            <label>4</label>
+                 <input type="radio" value="3" name="rate">
+                <label>3</label>
+                    
+                <input type="radio" value="4" name="rate">
+                <label>4</label>
 
-            <input type="radio" value="5" name="rate">
-            <label>5</label>
+                <input type="radio" value="5" name="rate">
+                <label>5</label>
 
-            <input type="radio" value="6" name="rate">
-            <label>6</label>
+                <input type="radio" value="6" name="rate">
+                <label>6</label>
 
-            <input type="radio" value="7" name="rate">
-            <label>7</label>
+                <input type="radio" value="7" name="rate">
+                <label>7</label>
 
-            <input type="radio" value="8" name="rate">
-            <label>8</label>
+                <input type="radio" value="8" name="rate">
+                <label>8</label>
 
-            <input type="radio" value="9" name="rate">
-            <label>9</label>
+                <input type="radio" value="9" name="rate">
+                <label>9</label>
 
-            <input type="radio" value="10" name="rate">
-            <label>10</label>
+                <input type="radio" value="10" name="rate">
+                <label>10</label>
 
-            </div id="comentario">
-            <label class="textarea">Deixe seu comentário:</label>
-            <textarea cols="30" rows="10" maxlength="500"></textarea>
-            <div>
-            
-           <section id="termos">
-            <input type="checkbox" id="agreement">
-            <label id="label-infos">Você concorda com o uso das informações acima?</label>
-           </section>
+                </div id="comentario">
+                    <label class="textarea">Deixe seu comentário:</label>
+                    <textarea cols="30" rows="10" maxlength="500"></textarea>
+                <div>
+                   
+            </section>
+
+
+            <section id="termos">
+                <input type="checkbox" id="agreement">
+                <label id="label-infos">Você concorda com o uso das informações acima?</label>
+            </section>
            
          
            <div>

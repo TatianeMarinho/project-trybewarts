@@ -55,6 +55,7 @@ h1 {
 }
 
 #main {
+  background-color: rgb(238, 236, 236);
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -65,7 +66,6 @@ h1 {
 #imgSection {
   display: flex;
   align-self: baseline;
-
 }
 
 #trybewarts-forms-logo {
@@ -74,15 +74,17 @@ h1 {
 
 #evaluation-form {
   width: 675px;
-  display: flex;
   padding: 10px;
+  margin-left: 45px;
+  margin-top: 13px;
+  display: flex;
   flex-direction: column;
-  align-self: baseline;
-  align-content: space-between;
+  align-content: center;
 }
+
 h2 {
   text-align: center;
-
+  margin-bottom: 20px;
 }
 
 .nameLastname {
@@ -90,6 +92,74 @@ h2 {
   margin: 5px;
 }
 
+#input-name {
+  width: 48%;
+  height: 30px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border: 0;
+}
+
+#input-lastname {
+  width: 48%;
+  height: 30px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border: 0;
+}
+
 .emailHouse {
   display: flex;
+}
+
+#input-email {
+  width: 48%;
+  height: 30px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border: 0;
+}
+
+#house {
+  width: 40%;
+  height: 30px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  margin-left: 3%;
+  border: 0;
+  background-color: white;
+}
+
+#familiConteudo{
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#familia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+#conteudo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 47%;
+}
+
+#label-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+
+
+#avaliation-trybewarts {
+  display: flex;
+  flex-direction: row;
 }
