@@ -130,11 +130,10 @@ h2 {
   background-color: white;
 }
 
-#familiConteudo{
+#familiConteudo {
   margin-bottom: 15px;
   display: flex;
-  justify-content: center;
-  
+  justify-content: center; 
 }
 
 #familia {
@@ -146,8 +145,7 @@ h2 {
 
 #conteudo {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   width: 47%;
 }
 
@@ -157,9 +155,6 @@ h2 {
   align-content: space-between;
 }
 
-
-
 #avaliation-trybewarts {
   display: flex;
-  flex-direction: row;
 }
