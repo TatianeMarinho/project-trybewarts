@@ -14,3 +14,19 @@ const validarButton = () => {
   buttonEntrar.addEventListener('click', (validarLogin));
 };
 validarButton();
+
+const enableSubmit = () => {
+  const submitBtn = document.querySelector('submit-btn');
+  const agreement = document.querySelector('agreement');
+  agreement.addEventListener('change', () => {
+    submitBtn.disabled = !agreement.ariaChecked;
+  });
+};
+enableSubmit();
+
+/* const submit = () => {
+  const submitBtn = document.querySelector('submit-btn');
+  submitBtn.addEventListener('click', (event) => {
+    event.preventDefault();
+  });
+}; */
