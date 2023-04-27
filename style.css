@@ -37,3 +37,7 @@ body main {
 .nameLastname {
   display: flex;
 }
+
+.emailHouse {
+  display: flex;
+}
