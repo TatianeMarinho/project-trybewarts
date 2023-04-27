@@ -15,18 +15,16 @@ const validarButton = () => {
 };
 validarButton();
 
-const enableSubmit = () => {
-  const submitBtn = document.querySelector('submit-btn');
-  const agreement = document.querySelector('agreement');
-  agreement.addEventListener('change', () => {
-    submitBtn.disabled = !agreement.ariaChecked;
+const submitBtn = document.getElementById('submit-btn');
+submitBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+});
+
+const ativaBotao = () => {
+  const agreement = document.getElementById('agreement');
+  submitBtn.disabled = true;
+  agreement.addEventListener('click', () => {
+    submitBtn.disabled = !agreement.checked;
   });
 };
-enableSubmit();
-
-/* const submit = () => {
-  const submitBtn = document.querySelector('submit-btn');
-  submitBtn.addEventListener('click', (event) => {
-    event.preventDefault();
-  });
-}; */
+ativaBotao();
